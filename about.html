@@ -1,0 +1,723 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Responsive, Digital Product">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				
+  		<!-- SITE TITLE -->
+		<title>Mahalakshmi Consultancy</title>
+							
+		<!-- FAVICON AND TOUCH ICONS -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+        <!-- Google Fonts - Open Sans -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+				
+		<!-- FONT ICONS -->
+		<link href="css/flaticon.css" rel="stylesheet">
+
+		<!-- PLUGINS STYLESHEET -->
+		<link href="css/menu.css" rel="stylesheet">	
+		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+		<link href="css/magnific-popup.css" rel="stylesheet">	
+		<!-- <link href="css/owl.carousel.min.css" rel="stylesheet"> -->
+		<!-- <link href="css/owl.theme.default.min.css" rel="stylesheet"> -->
+		<!-- <link href="css/lunar.css" rel="stylesheet"> -->
+
+		<!-- ON SCROLL ANIMATION -->
+		<link href="css/animate.css" rel="stylesheet">
+
+		<!-- TEMPLATE CSS -->
+		<link href="css/blue-theme.css" rel="stylesheet">
+
+		
+		
+		<!-- RESPONSIVE CSS -->
+		<link href="css/responsive.css" rel="stylesheet">
+<style>
+
+        
+        .header-wrapper {
+            transition: background-color 0.3s ease;
+        }
+        /* Styling for header when scrolled */
+        
+        .header-wrapper.scrolled {
+            background-color: #e8ecf1;
+            /* Change background color on scroll */
+        }
+        
+        .footer {
+			background:linear-gradient(#000040,#1560bd,#000040);
+            color: #fff;
+        }
+        
+        .footer li a {
+            color: #fff;
+        }
+        
+    
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+.about .pic {
+  border-radius: 50%;
+}
+.about-us{
+    background-color: rgb(255, 235, 205);
+
+}
+.heading-color {
+        color: #ff5733;
+    }
+
+  /* Keyframes for slide-in animation */
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Apply animation to the text and image */
+  .text {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+
+  .pic {
+    animation: slideInRight 1s ease-out forwards;
+  }
+  /* CSS for mobile view */
+@media only screen and (max-width: 767px) {
+    /* Adjust margin and padding for better spacing */
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
+    /* Center logo */
+    .col-md-6 img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+</style>
+	</head>
+
+<!-- PAGE CONTENT
+		============================================= -->	
+		<div id="page" class="page font--jakarta">
+
+			<!-- HEADER
+			============================================= -->
+			<header id="header" class="tra-menu navbar-dark inner-page-header white-scroll">
+				<div class="header-wrapper">
+
+
+					<!-- MOBILE HEADER -->
+				    <div class="wsmobileheader clearfix">	  	
+				    	<span class="smllogo"><img src="images/vindus_clients_images/FullColor_IconOnly_1024x1024_72dpi.jpg" alt="mobile-logo"></span>
+				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	
+				 	</div>
+
+
+				 	<!-- NAVIGATION MENU -->
+				  	<div class="wsmainfull menu clearfix">
+	    				<div class="wsmainwp clearfix">
+
+
+	    					<!-- HEADER BLACK LOGO -->
+	    					<div class="desktoplogo">
+	    						<a href="#" class="">
+	    							<img class="light-theme-img" src="images/vindus_clients_images/FullColor_IconOnly_1024x1024_72dpi.jpg" alt="logo">
+	    							<img class="dark-theme-img" src="images/vindus_clients_images/FullColor_IconOnly_1024x1024_72dpi.jpg" alt="logo">
+	    						</a>
+	    					</div>
+	    					
+
+	    					<!-- HEADER WHITE LOGO -->
+	    					<div class="desktoplogo">
+	    						<a href="#" class="logo-white"><img src="images/logo-blue-white.png" alt="logo"></a>
+	    					</div>
+
+	<!-- MAIN MENU -->
+	<nav class="wsmenu clearfix">
+		<ul class="wsmenu-list nav-theme">
+
+			<li class="nl-simple" aria-haspopup="true"><a href="index.html" class="h-link">Home</a></li>
+
+
+			<!-- SIMPLE NAVIGATION LINK -->
+			<li aria-haspopup="true"><a href="auditing.html" class="h-link">Auditing<span class="wsarrow"></span></a>
+				<ul class="sub-menu">
+					<li aria-haspopup="true"><a href="ims.html">IMS Auditing</a></li>
+					<li aria-haspopup="true"><a href="safety.html">Safety Audit</a></li>
+					<li aria-haspopup="true"><a href="env.html">Environment Audit</a></li>
+					<li aria-haspopup="true"><a href="healthandsafety.html">Healthy and safety Audit </a></li>
+					<li aria-haspopup="true"><a href="survelliance.html">Survelliance Audit</a></li>	
+				   </ul>
+			</li>
+
+
+
+
+
+			<li class="nl-simple" aria-haspopup="true"><a href="certification.html" class="h-link">Certification<span class="wsarrow"></span></a>
+			
+				<ul class="sub-menu">
+					<li aria-haspopup="true"><a href="certification1.html">ISO 45001 :2018</a></li>
+					<li aria-haspopup="true"><a href="certification2.html">ISO 14001 :2015</a></li>
+					<li aria-haspopup="true"><a href="certification3.html">ISO 9001 :2015</a></li>
+					<li aria-haspopup="true"><a href="certification4.html">IMS</a></li>
+				
+						
+				   </ul>
+			
+			
+			
+			</li>
+			
+
+
+
+			<!-- SIMPLE NAVIGATION LINK -->
+			<li class="nl-simple" aria-haspopup="true"><a href="documentation.html" class="h-link">Documentation<span class="wsarrow"></span></a>
+			<ul class="sub-menu">
+				<li aria-haspopup="true"><a href="ohsms.html">OHSMS</a></li>
+				<li aria-haspopup="true"><a href="ems.html">EMS</a></li>
+				<li aria-haspopup="true"><a href="qms.html">QMS</a></li>
+			
+					
+					   </ul>
+					</li>
+
+
+				<!-- DROPDOWN SUB MENU -->
+				<li aria-haspopup="true"><a href="fireequipments.html" class="h-link">Fire Equipments<span class="wsarrow"></span></a>
+					<ul class="sub-menu">
+						
+						<li aria-haspopup="true"><a href="fireprotection.html">Fire Protection</a></li>
+						<li aria-haspopup="true"><a href="firedetection.html">Fire Detection</a></li>
+						<li aria-haspopup="true"><a href="firesuppression.html">Fire Supression</a></li>
+						<li aria-haspopup="true"><a href="mlcfiresystemservices.html">MLC Fire System Services</a></li>
+							
+					   </ul>
+				</li>
+
+
+
+			<!-- SIMPLE NAVIGATION LINK -->
+
+			<li class="nl-simple" aria-haspopup="true"><a href="ppesupply.html" class="h-link">PPE's Supply<span class="wsarrow"></span></a>
+				<ul class="sub-menu">
+					<li aria-haspopup="true"><a href="covid.html">COVID-19</a></li>
+					<li aria-haspopup="true"><a href="aboveneck.html">Above Neck</a></li>
+					<li aria-haspopup="true"><a href="footprotection.html">Foot Protection</a></li>
+					<li aria-haspopup="true"><a href="handprotection.html">Hand Protection</a></li>
+					<li aria-haspopup="true"><a href="fallprotection.html">Fall Protection</a></li>
+					<li aria-haspopup="true"><a href="bodyprotection.html">Body Protection</a></li>
+						
+				   </ul>
+			
+			
+			
+			</li>
+
+
+			<!-- SIMPLE NAVIGATION LINK -->
+			<li class="nl-simple" aria-haspopup="true"><a href="ehstrainings.html" class="h-link">MLC Trainings<span class="wsarrow"></span></a>
+			
+				<ul class="sub-menu">
+					<li aria-haspopup="true"><a href="online.html">Online </a></li>
+					<li aria-haspopup="true"><a href="classroom.html">Class room</a></li>
+					<li aria-haspopup="true"><a href="corporate.html">Corporate</a></li>
+					
+				   </ul>
+			
+			
+			
+			</li>
+			<li class="nl-simple" aria-haspopup="true"><a href="services2.html" class="h-link">Services<span class="wsarrow"></span></a>
+			
+				<ul class="sub-menu">
+					<li aria-haspopup="true"><a href="safetystudies.html">Safety Studies </a></li>
+					<li aria-haspopup="true"><a href="powersystem.html">Power system studies</a></li>
+					<li aria-haspopup="true"><a href="industrialhygene.html">Industrial<br>hygene</a></li>
+					<li aria-haspopup="true"><a href="Pharma.html">Pharma Clean room <br>equipments</a></li>
+					<li aria-haspopup="true"><a href="incidentinvestigation.html">Incident Investigation</a></li>
+				   </ul>
+			
+			
+			
+			</li>
+		</ul>
+
+
+	</nav>	<!-- END MAIN MENU -->
+
+
+	    				</div>
+	    			</div>	<!-- END NAVIGATION MENU -->
+
+
+				</div>     <!-- End header-wrapper -->
+			</header>	<!-- END HEADER -->
+
+<br>
+
+<body>
+    <!-- <section class="about-us" style="margin-top: 90px;">
+      <div class="about">
+      
+        <div class="text">
+          <h2>About Us</h2>
+          <h5>Virtual Assistant at your Service,<br> All QEHS services at one place</h5>
+          <p>Skilled Administrative Support Professional with 23 Years' Experience in EHS .</p>
+          <div class="data">
+          <a href="contact.html" class="hire">Connect with me!</a>
+          </div>
+        </div>
+        <img src="images/vindus_clients_images/client.png" class="pic">
+      </div>
+    </section> -->
+
+
+
+
+<section class="about-us mt-5">
+	<div class="container" style="margin-left: 200px;">
+		<div class="row">
+			<div class="col-md-6 text">
+				<h2>About Us</h2>
+				<h5>Virtual Assistant at your Service,<br> All QEHS services at one place</h5>
+				<p>Skilled Administrative Support Professional with 23 Years' Experience in EHS .</p>
+				<div class="data">
+					<a href="contact.html" class="btn btn-primary hire">Connect with me!</a>
+				</div>
+			</div>
+			<div class="col-md-6 pic">
+				<img src="images/vindus_clients_images/client.png" class="img-fluid rounded-circle" alt="Client Image">
+			</div>
+		</div>
+	</div>
+</section>
+
+<br>
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+      
+        <h3 style="color: #1560bd;">Information about Chief Consultant of www.mlcqehs.com:</h3><br>
+      
+        <h3 style="color: #1560bd;">Education Background:</h3><br>
+        <p>Mr. Ghanta Bharat has done Graduation in Physics	</p>
+
+
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-6">
+				<h4>Trainings:</h4>
+				<ul class="list-group">
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> NEBOSH Passport Training in Chemical Safety from St. John Health & Safety</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> Accredited by ROSPA What Everyone Needs to Know About Permit to Work</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> CPD Certified HAZWOPERM: Hazardous Waste Operations and Emergency Response Management</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> CPD Certified MOC: Management of Change in Process Safety</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> EFSP- (Essentials of Fire Safety Principles) from Dubai KHDA – UAE</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> FAW- (First Aid at Work) from Dubai KHDA – UAE</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> NCFE Certified LEVEL – 3 Award in Health and Safety for the workplace from UK</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> Qualified First-Aider from St John’s Ambulance</li>
+				</ul>
+			  </div>
+			  <div class="col-md-6">
+				<h4>Certifications:</h4>
+				<ul class="list-group">
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> P.G. Diploma in Industrial Safety from SBTET</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> NEBOSH-IGC from NEBOSH Board – U.K.</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> IOSH MS from IOSH Board – U.K.</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> IRCA Approved OHSMS ISO 45001:2018 Lead Auditor from TUV – Germany</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> IRCA Approved EMS ISO 14001:2015 Lead Auditor from TUV – Germany</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> CPD Certified IMS ISO 9001:2015, ISO 14001:2015 & OHSAS 18001:20117 Internal Auditor</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> NEBOSH-PSM</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> NEBOSH-HAZOP</li>
+				  <li class="list-group-item"><span class="arrow">&#8594;</span> Lean Six Sigma Black Belt</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  
+        <h3 style="color: #1560bd;">Experience:</h3><br>
+        <p style="text-align: justify;">Mr. Ghanta Bharat is having 23 years of Experience in EHS Domain, in that  Construction in Green Field Projects & Running Projects, O&M of Thermal Power Plants, Manufacturing of Solar Modules, Steel Fabrication Industry, Chemical Industry and Pharma Industry.      </p>
+
+		<p>Worked in many Reputed companies such as </p>
+		<p>Fleming Laboratories Pvt Ltd,   </p>
+		<p>Bhagiradha Chemicals & Industries Limited,   </p>
+		<p>EnerTap Pvt Ltd, </p>
+		<p>ABB India Ltd,</p>
+		<p>Wartsila India PVT Ltd,</p>
+		<p>Renewsys India PVT Ltd,  </p>
+		<p>Feedback Power India PVT Ltd,   </p>
+		<p>Pennar Industries Ltd,  </p>
+		<p>Sairam Engineering services India PVT Ltd, </p>
+		<p>PACE Process & Controls India PVT Ltd,  </p>
+		<p>PSV PVT Ltd.</p>
+        <h3 style="color: #1560bd;">Background in developing www.mlcqehs.com:</h3><br><br>
+</div>
+<div class="row">
+
+        <div class="col-md-6">
+        <p style="text-align: justify;">As on now a days implementing & maintaining QEHS is found very difficult due to many reasons such as Change in Standards & Laws frequently, Management not knowing the benefits in implementing EHS, Employers not having enough knowledge in EHS, Employees not having required knowledge in EHS, neglecting EHS for the sake of reaching targets by the middle management, Governing bodies not working up to the standards, Workforce not having sufficient knowledge in EHS... etc. So www.mlcqehs.com is formed to enhance the EHS Profession by providing knowledge to EHS Professionals irrespective of experience to implement EHS in their respective industry.</p></div>
+
+        <div class="col-md-6">
+            <img src="images/vindus_clients_images/website_logo_solid_background.png">
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+<!-- FOOTER-3
+			============================================= -->
+			<footer id="footer-3" class="pt-100 footer">
+				<div class="container">
+					<div class="row">
+						<!-- FOOTER LOGO -->
+						<div class="col-xl-3 text-center text-xl-left">
+							<div class="footer-info">
+								<img src="images/vindus_clients_images/cardlogo.jpg" alt="" class="rounded-circle" height="200px" width="200px">
+							</div>
+						</div>
+						<!-- END FOOTER LOGO -->
+				
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-4 col-md-3 col-xl-2">
+							<div class="footer-links fl-1">
+								<!-- Title -->
+								<h6 class="s-17 w-700" style="color:#fff;">Company</h6>
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+									<li><p><a href="about.html">About Us</a></p></li>
+									<li><p><a href="Blog.html">Our Blog</a></p></li>                          
+									<li><p><a href="contact.html">Contact Us</a></p></li>           
+								</ul>
+							</div>
+						</div>	<!-- END FOOTER LINKS -->	
+
+
+						<!-- FOOTER LINKS -->
+						
+
+
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-4 col-md-3 col-xl-2">
+							<div class="footer-links fl-3">
+												
+								<!-- Title -->
+								<h6 class="s-17 w-700" style="color:#fff;">Legal</h6>
+
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+									<li><p><a href="terms.html">Terms of Use</a></p></li>										
+									<!-- <li><p><a href="privacy.html">Privacy Policy</a></p></li>
+									<li><p><a href="cookies.html">Cookie Policy</a></p></li> -->
+									<li><p><a href="sitemap.html">Site Map</a></p></li>
+								</ul>
+
+							</div>	
+						</div>	<!-- END FOOTER LINKS -->	
+
+
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-6 col-md-4">
+							<div class="footer-links fl-4">
+												
+								<!-- Title -->
+								<h6 class="s-17 w-700"  style="color:#fff;">Connect With Us</h6>
+
+								<!-- Mail Link -->
+								<p class="footer-mail-link ico-25">
+									<a href="mailto:yourdomain@mail.com" style="color:#fff;">
+										<i class="fas fa-envelope"></i>  info@mlcqehs.com
+
+									</a>
+									<br><br>
+									<i class="fas fa-mobile-alt"></i> +91 9949845759 , +91 7726932023
+								</p>
+								
+
+								<!-- Social Links -->	
+								
+
+							</div>	
+						</div>	<!-- END FOOTER LINKS -->	
+
+
+					</div>	<!-- END FOOTER CONTENT -->
+
+
+					<hr>	<!-- FOOTER DIVIDER LINE -->
+
+					<div class="container p-4 pb-0">
+						<!-- Section: Social media -->
+						<section class="mb-4">
+							<!-- Social media links -->
+							<!-- Facebook -->
+							<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/people/Ghanta-Bharat/pfbid02E5p4iNHonymCDq917efmb1mu44dTg8gLaJtYmWX1H4uo7ekoPVZ1UfoeGDbX8Ltml/" role="button"><i class="fab fa-facebook-f"></i></a>
+							<!-- Twitter -->
+							<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://twitter.com/mlcqehs" role="button"><i class="fab fa-twitter"></i></a>
+							<!-- Google -->
+							<!-- Instagram -->
+							<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com/mlcqehsgb/" role="button"><i class="fab fa-instagram"></i></a>
+							<!-- Linkedin -->
+<!-- LinkedIn -->
+<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/company/maha-laxmi-consultancy/" role="button"><i class="fab fa-linkedin-in"></i></a>
+							<!-- Github -->
+						</section>
+						<!-- Section: Social media -->
+					</div>
+					<!-- BOTTOM FOOTER -->
+					<div class="bottom-footer">
+						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+
+
+							<!-- FOOTER COPYRIGHT -->
+							<div class="col">
+								<div class="footer-copyright"><p class="p-sm">&copy; 2024 Vindus. <span>All Rights Reserved</span></p></div>
+							</div>
+
+
+							<!-- FOOTER SECONDARY LINK -->
+							
+							</div>
+
+
+						</div>  <!-- End row -->
+					</div>	<!-- END BOTTOM FOOTER -->
+
+
+				</div>     <!-- End container -->	
+			</footer>   <!-- END FOOTER-3 -->
+
+
+		</div>	<!-- END PAGE CONTENT -->	
+
+
+
+
+		<!-- EXTERNAL SCRIPTS
+		============================================= -->	
+		<script src="js/jquery-3.7.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/pricing-toggle.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/request-form.js"></script>	
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>	
+		<script src="js/popper.min.js"></script>
+		<script src="js/lunar.js"></script>
+		<script src="js/wow.js"></script>
+				
+		<!-- Custom Script -->		
+		<script src="js/custom.js"></script>
+
+	
+		<!-- <script>
+			$(function() {
+			  $(".switch").click(function() {
+			    $("body").toggleClass("theme--dark");
+				    if( $( "body" ).hasClass( "theme--dark" )) {
+	                	$( ".switch" ).text( "Light Mode" );
+	            	} else {
+	                	$( ".switch" ).text( "Dark Mode" );
+	            	}
+			    });
+			});
+		</script>
+
+		<script>
+			$(document).ready(function() {
+	            if( $( "body" ).hasClass( "theme--dark" )) {
+	                $( ".switch" ).text( "Light Mode" );
+	            } else {
+	                $( ".switch" ).text( "Dark Mode" );
+	            }
+	        });
+		</script> -->
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
+		<!--
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		-->	
+
+		<script src="js/changer.js"></script>
+		<script defer src="js/styleswitch.js"></script>	
+
+
+
+
+		<script>
+			// JavaScript to handle header scroll effect
+document.addEventListener("DOMContentLoaded", function() {
+  var header = document.getElementById("header");
+  var headerWrapper = document.querySelector(".header-wrapper");
+
+  // Function to handle scroll event
+  function handleScroll() {
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    // Add a class to the header when scrolled
+    if (scrollPosition > 0) {
+      headerWrapper.classList.add("scrolled");
+    } else {
+      headerWrapper.classList.remove("scrolled");
+    }
+  }
+
+  // Event listener for scroll event
+  window.addEventListener("scroll", handleScroll);
+});
+
+		</script>
+
+	</body>
+
+
+
+
+
+<!-- Mirrored from dsathemes.com/html/martex_1.1/files/project-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 16:40:05 GMT -->
+</html>
